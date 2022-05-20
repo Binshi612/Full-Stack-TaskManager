@@ -13,13 +13,18 @@ function SingleTask() {
       <hr />
       <div className="content">
         <div className="data">
-          <h2>Description :</h2>
-          <h2>Due Date :</h2>
-          <h2>Difficulty :</h2>
-          <h2>Status :</h2>
+          <h2>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat,
+            dolore.
+          </h2>
+          <h2>Due Date </h2>
+          <h2>Difficulty </h2>
+          <h2>Status </h2>
         </div>
         <div className="options">
-          <button className="btn edit">Edit</button>
+          <button className="btn edit">
+            <a href="/edit-task">Edit</a>
+          </button>
           <button className="btn delete">Delete</button>
         </div>
       </div>

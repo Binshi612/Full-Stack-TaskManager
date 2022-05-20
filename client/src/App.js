@@ -6,6 +6,7 @@ import ViewTodayTask from "./Pages/ViewTodayTask";
 import ViewWeekTask from "./Pages/ViewWeekTask";
 import EditTask from "./Pages/EditTask";
 import ListTask from "./Pages/ListTask";
+import AddTask from "./Pages/AddTask";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/weeks-task" element={<ViewWeekTask />} />
         <Route path="/edit-task" element={<EditTask />} />
         <Route path="/all-task" element={<ListTask />} />
+        <Route path="/add-task" element={<AddTask />} />
       </Routes>
     </BrowserRouter>
   );

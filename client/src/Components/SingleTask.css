@@ -42,11 +42,9 @@
   font-weight: 400px;
   margin-right: 30px;
 }
-/* .btn:hover {
-  background-color: rgb(97, 191, 145);
-  color: whitesmoke;
-  border: none;
-} */
+a {
+  text-decoration: none;
+}
 .delete {
   border-color: red;
 }
