@@ -34,8 +34,8 @@ In this project,
                $ npm start
                
    Back-end API requests :
-               get - localhost:5000/api/tasks - to View tasks . 
-               post - localhost:5000/api/tasks - to Create new task  .
-               patch - localhost:5000/api/tasks/id - to Update task  .
-               delete - localhost:5000/api/tasks/id - to delete task  .
+               get - localhost:5000/api/tasks - to View tasks ,
+               post - localhost:5000/api/tasks - to Create new task  ,
+               patch - localhost:5000/api/tasks/id - to Update task  ,
+               delete - localhost:5000/api/tasks/id - to delete task  ,
                
