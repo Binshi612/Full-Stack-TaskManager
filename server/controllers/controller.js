@@ -3,7 +3,7 @@ const connection = require("../config/config");
 const getAllTasks = async (req, res) => {
   //executing my sql query to fetch all the tasks from  db
   connection.query(
-    "SELECT * FROM tasklist WHERE status='false'",
+    "SELECT * FROM task_list WHERE status='false'",
     (err, tasks) => {
       if (err) res.status(500).json({ msg: err });
       else if (tasks.length == 0)
@@ -17,7 +17,7 @@ const getAllTasks = async (req, res) => {
 };
 const createTask = async (req, res) => {
   // console.log(req.body)
-  connection.query("INSERT INTO tasklist SET ?", [req.body], (err, task) => {
+  connection.query("INSERT INTO task_list SET ?", [req.body], (err, task) => {
     if (err) {
       console.log(err);
       res.status(500).json({ msg: err });
